@@ -45,10 +45,10 @@ export default function Main() {
   return (
     <div className="min-h-screen px-4 pt-32 bg-blue-50 text-gray-900 flex justify-center">
       <form onSubmit={handleSubmit} className="space-y-6 w-full max-w-xl">
-        <h1 className="text-3xl font-bold text-center text-white">ReLu</h1>
+        <h1 className="text-3xl font-bold text-center text-black">ReLu</h1>
 
         <div>
-          <label className="block font-semibold mb-1 text-white">Location</label>
+          <label className="block font-semibold mb-1 text-black">Location</label>
           <input
             type="text"
             value={location}
@@ -59,7 +59,7 @@ export default function Main() {
         </div>
 
         <div>
-          <label className="block font-semibold mb-1 text-white">Preferences</label>
+          <label className="block font-semibold mb-1 text-black">Preferences</label>
           <textarea
             value={preference}
             onChange={(e) => setPreference(e.target.value)}
